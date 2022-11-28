@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: rgb(2, 48, 71);
+  margin-top: 0;
+
+}
+.navbar > h4 {
+  margin-left: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 10%;
+}
+
+.bars {
+  background-color: transparent;
+  flex-direction: row;
+  width: 60%;
+  margin-right: 2%;
+  padding-top: 2px;
+}
+
+.buttonHome {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 40%;
+  transition: all 400ms ease;
+  cursor: pointer;
+  text-shadow: 0px 5px 6px  rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+}
+.buttonHome:hover {
+  color: rgb(231, 111, 81);
+  border-radius: 5px;
+  font-size: 35px;
+  font-weight: 700;
+}
+.buttonCreate {
+  background-color: transparent;
+  border: none;
+  transition: all 400ms ease;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: rgb(2, 48, 71);
+
+}
+
+.buttonCreate:hover {
+  color: rgb(231, 111, 81);
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: -20px;
+  text-shadow: 0px 5px 6px  rgba(0, 0, 0, 0.6);
+
+}
+
+/* .bars > :LINK button{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30%;
+    border: none;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.bars > :LINK button:hover{
+    color: antiquewhite;
+} */
